@@ -1,0 +1,23 @@
+{
+  "name": "poc_recover_monitoreo_licencias",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1692.0",
+    "aws-serverless-express": "^3.4.0",
+    "axios": "^1.10.0",
+    "dotenv": "^17.4.2",
+    "emailjs": "^4.0.3",
+    "express": "^5.1.0",
+    "nodemailer": "^7.0.3",
+    "purecloud-platform-client-v2": "^223.0.0",
+    "smtp-connection": "^4.0.2",
+    "zip": "^1.2.0"
+  }
+}
