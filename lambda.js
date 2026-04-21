@@ -366,12 +366,12 @@ async function sendEmail(dataReq) {
     await connect();
     console.log('Autenticando...');
     await login({
-      user: 'notificacionesxkale@recover.ec',
-      pass: 'X/048300692008ov',
+      user: process.env.SMTP_USER,
+      pass: process.env.SMTP_PWD,
       method: 'LOGIN',
     });
     const envelope = {
-      from: 'notificacionesxkale@recover.ec',
+      from: process.env.SMTP_USER,
       to: [
         'notificaciones.recover@xkale.com',
         'notificacionesgenesys@recover.ec',
